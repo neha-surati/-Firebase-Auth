@@ -60,6 +60,7 @@ function Auth_page() {
                 name="email"
                 value={user.email || ""}
                 onChange={handleChange}
+                
                 placeholder="Enter your email"
                 required
               />
